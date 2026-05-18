@@ -24,7 +24,7 @@ export default function Testimonials({ lang }: { lang: Locale }) {
 
               <div className="mt-auto pt-10 flex items-center gap-3">
                 {/* Brand mark instead of avatar */}
-                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-orange-500 to-red-600">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-linear-to-br from-orange-500 to-red-600">
                   <Image
                     src="/logo-clean.png"
                     alt=""

@@ -1,4 +1,3 @@
-import type { PageProps } from 'next/types';
 import type { Locale } from '@/lib/i18n/translations';
 import HeroVideo from '@/components/HeroVideo';
 import Features from '@/components/Features';
@@ -8,7 +7,7 @@ import Advantages from '@/components/Advantages';
 import RetailSection from '@/components/RetailSection';
 import PartnersSection from '@/components/PartnersSection';
 
-export default async function HomePage({ params }: PageProps<'/[lang]'>) {
+export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = (await params) as { lang: Locale };
 
   return (

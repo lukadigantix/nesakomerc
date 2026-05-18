@@ -52,7 +52,7 @@ export default function HeroVideo({ lang }: { lang: Locale }) {
         >
           <button
             type="button"
-            className="cursor-pointer rounded-lg bg-gradient-to-r from-orange-500 to-red-600 px-8 py-3.5 text-[14px] font-semibold text-white shadow-[0_6px_24px_rgba(234,88,12,0.4)] transition-all duration-300 hover:shadow-[0_8px_32px_rgba(234,88,12,0.6)] hover:brightness-110"
+            className="cursor-pointer rounded-lg bg-linear-to-r from-orange-500 to-red-600 px-8 py-3.5 text-[14px] font-semibold text-white shadow-[0_6px_24px_rgba(234,88,12,0.4)] transition-all duration-300 hover:shadow-[0_8px_32px_rgba(234,88,12,0.6)] hover:brightness-110"
           >
             {t.cta}
           </button>

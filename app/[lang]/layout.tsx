@@ -1,4 +1,3 @@
-import type { PageProps } from 'next/types';
 import NavbarV2 from '@/components/NavbarV2';
 import Footer from '@/components/Footer';
 import { locales, type Locale } from '@/lib/i18n/translations';
@@ -12,7 +11,8 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode;
-} & PageProps<'/[lang]'>) {
+  params: Promise<{ lang: string }>;
+}) {
   const { lang } = (await params) as { lang: Locale };
 
   return (
