@@ -47,7 +47,7 @@ export default function HeroCarousel({ lang }: { lang: Locale }) {
   const slide = t.slides[displayedIndex];
 
   return (
-    <section className="relative h-[calc(100vh-125px)] w-full overflow-hidden mt-20">
+    <section className="relative h-[calc(100vh-125px)] w-full overflow-hidden bg-white">
       {images.map((image, index) => (
         <div
           key={image.src}

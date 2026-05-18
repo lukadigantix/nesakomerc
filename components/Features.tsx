@@ -6,7 +6,7 @@ export default function Features({ lang }: { lang: Locale }) {
   const t = (translations[lang] ?? translations['sr']).highlights;
 
   return (
-    <section className="bg-white ">
+    <section className="bg-white mb-20">
       <Container>
         <div className="grid grid-cols-3 divide-x divide-neutral-200 rounded-2xl border border-neutral-200 overflow-hidden">
           {t.items.map((item, i) => (
