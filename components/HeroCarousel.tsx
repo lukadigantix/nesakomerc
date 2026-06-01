@@ -65,27 +65,28 @@ export default function HeroCarousel({ lang }: { lang: Locale }) {
         </div>
       ))}
 
-      {/* Right-side text overlay */}
-      <div className="absolute inset-0 flex items-center pointer-events-none">
-        <div className="mx-auto w-full max-w-350 px-8 pointer-events-none flex">
-          <div className="ml-auto w-1/2 pl-10 pointer-events-auto">
-          <div className={`transition-opacity duration-700 ease-in-out ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
-            <p className="text-sm font-semibold uppercase tracking-widest text-white/60 mb-4">
-              Neša Komerc
-            </p>
-            <h2 className="text-7xl font-extrabold text-white leading-tight mb-6">
-              {slide.title}
-            </h2>
-            <p className="text-base text-white/80 leading-relaxed mb-10">
-              {slide.description}
-            </p>
-            <Link
-              href={slide.href}
-              className="cursor-pointer rounded-lg bg-linear-to-r from-orange-500 to-red-600 px-8 py-3.5 text-[14px] font-semibold text-white shadow-[0_6px_24px_rgba(234,88,12,0.4)] transition-all duration-300 hover:shadow-[0_8px_32px_rgba(234,88,12,0.6)] hover:brightness-110"
-            >
-              {slide.cta}
-            </Link>
-          </div>
+      {/* Text overlay */}
+      <div className="absolute inset-0 flex items-end pointer-events-none sm:items-center">
+          <div className="mx-auto w-full max-w-350 px-4 pb-24 pointer-events-none flex sm:px-8 sm:pb-0">
+          {/* Mobile: full width bottom-aligned, Desktop: right half */}
+          <div className="w-full pointer-events-auto sm:ml-auto sm:w-1/2 sm:pl-10">
+            <div className={`transition-opacity duration-700 ease-in-out ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
+              <p className="text-sm font-semibold uppercase tracking-widest text-white/60 mb-3">
+                Neša Komerc
+              </p>
+              <h2 className="text-4xl font-extrabold text-white leading-tight mb-4 sm:text-7xl sm:mb-6">
+                {slide.title}
+              </h2>
+              <p className="text-sm text-white/80 leading-relaxed mb-7 sm:text-base sm:mb-10">
+                {slide.description}
+              </p>
+              <Link
+                href={slide.href}
+                className="cursor-pointer rounded-lg bg-linear-to-r from-orange-500 to-red-600 px-8 py-3.5 text-[14px] font-semibold text-white shadow-[0_6px_24px_rgba(234,88,12,0.4)] transition-all duration-300 hover:shadow-[0_8px_32px_rgba(234,88,12,0.6)] hover:brightness-110"
+              >
+                {slide.cta}
+              </Link>
+            </div>
           </div>
         </div>
       </div>

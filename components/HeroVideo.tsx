@@ -5,6 +5,7 @@ import { useState } from 'react';
 import type { Locale } from '@/lib/i18n/translations';
 import { translations } from '@/lib/i18n/translations';
 import Container from '@/components/Container';
+import ReusableButton from '@/components/ui/ReusableButton';
 
 export default function HeroVideo({ lang }: { lang: Locale }) {
   const [ready, setReady] = useState(false);
@@ -50,18 +51,8 @@ export default function HeroVideo({ lang }: { lang: Locale }) {
           className={`mt-5 flex items-center gap-4 transition-none ${ready ? 'animate-hero-text' : 'opacity-0'}`}
           style={{ animationDelay: '1s' }}
         >
-          <button
-            type="button"
-            className="cursor-pointer rounded-lg bg-linear-to-r from-orange-500 to-red-600 px-8 py-3.5 text-[14px] font-semibold text-white shadow-[0_6px_24px_rgba(234,88,12,0.4)] transition-all duration-300 hover:shadow-[0_8px_32px_rgba(234,88,12,0.6)] hover:brightness-110"
-          >
-            {t.cta}
-          </button>
-          <button
-            type="button"
-            className="cursor-pointer rounded-lg border border-white/70 bg-white/10 px-8 py-3.5 text-[14px] font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:bg-white/20"
-          >
-            {t.about}
-          </button>
+          <ReusableButton variant="primary">{t.cta}</ReusableButton>
+          <ReusableButton variant="secondary">{t.about}</ReusableButton>
         </div>
         </Container>
       </div>
