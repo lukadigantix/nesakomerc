@@ -272,6 +272,103 @@ export const translations = {
       prim: "Početna stranica",
       sec: "Kontaktirajte nas",
     },
+    aboutHero: {
+      badge: "O nama",
+      title: "Svaka toplota počinje ovde",
+      subtitle:
+        "Od 1994. gradimo partnerstva zasnovana na kvalitetu, tradiciji i posvećenosti svakom kupcu.",
+    },
+    contactPage: {
+      hero: {
+        badge: "Kontakt",
+        title: "Stupite u kontakt",
+        subtitle: "Tu smo za sva vaša pitanja, ponude i saradnju. Odgovorićemo u najkraćem mogućem roku.",
+      },
+      info: {
+        badge: "Kontakt informacije",
+        addressLabel: "Adresa",
+        address: "Stevana Sinđelića 30\n35210 Svilajnac, Srbija",
+        phoneLabel: "Telefon",
+        emailLabel: "Email",
+        phones: ["+381 35 8814 077", "+381 35 8814 099"],
+        emails: [
+          "office@nesa-komerc.com",
+          "sales@nesa-komerc.com",
+          "teodora.obradovic@nesa-komerc.com",
+        ],
+      },
+      form: {
+        badge: "Pošaljite poruku",
+        title: "Kako vam možemo pomoći?",
+        labelName: "Ime i prezime",
+        labelCompany: "Firma",
+        labelPhone: "Telefon",
+        labelEmail: "Email adresa",
+        labelDepartment: "Odeljenje",
+        labelMessage: "Poruka",
+        placeholderName: "Vaše ime i prezime",
+        placeholderCompany: "Naziv firme",
+        placeholderPhone: "+381...",
+        placeholderEmail: "vasa@email.com",
+        placeholderMessage: "Opišite vašu potrebu...",
+        submit: "Pošalji poruku",
+        successTitle: "Poruka je poslata!",
+        successBody: "Hvala na poruci. Kontaktiraćemo vas u najkraćem mogućem roku.",
+        departments: [
+          { value: "veleprodaja", label: "Veleprodaja" },
+          { value: "maloprodaja", label: "Maloprodaja" },
+          { value: "proizvodnja", label: "Proizvodnja" },
+          { value: "direktor", label: "Direktor" },
+          { value: "knjigovodstvo", label: "Knjigovodstvo" },
+        ],
+      },
+      mapLabel: "Pronađite nas",
+    },
+    aboutPage: {
+      company: {
+        badge: "Neša Komerc d.o.o.",
+        title: "Osnivanje i rast",
+        body1:
+          'Kompanija \"Neša Komerc\" d.o.o. je osnovana decembra 1992. godine, a proizvodnju cevastih radijatora započinje 2001. godine. Kompanija je postepenim napredovanjem i stalnim ulaganjem u novu tehnologiju prerasla u ozbiljnu industrijsku kompaniju.',
+        body2:
+          'Sedište kompanije je u Svilajncu u industrijskoj zoni, put za Požarevac, 110 km od Beograda. Danas se proizvodnja odvija u modernim industrijskim halama površine 6 000 m². U procesu proizvodnje zastupljena je najmodernija oprema renomiranih svetskih proizvođača (robotsko i tunelsko zavarivanje) i repromaterijal najpoznatijih evropskih firmi uz efikasnu organizaciju koja je potvrđena odgovarajućim sertifikatima.',
+      },
+      mission: {
+        badge: "Misija i vizija",
+        title: "Posvećenost kvalitetu i kupcima",
+        body1:
+          'Naša kompanija je maksimalno posvećena željama svojih kupaca i kvalitetu proizvoda za koje daje petogodišnju garanciju. Cevasti radijatori su izvanrednog kvaliteta, jedinstvenog dizajna koji poseduju sve ateste i sertifikate.',
+        body2:
+          '\"Neša-komerc\" d.o.o. jeste i biće nezavisno porodično preduzeće. Kompanija je usmerena ka ojačavanju liderske pozicije i osvajanju novih tržišta.',
+        guarantee: "5 godina garancije",
+      },
+      team: {
+        badge: "Naš tim",
+        title: "Ljudi iza svake toplote",
+        subtitle: "Stručni tim koji stoji iza svakog radijatora koji napusti naš pogon.",
+        members: [
+          { name: "Ime Prezime", role: "Generalni direktor" },
+          { name: "Ime Prezime", role: "Tehnički direktor" },
+          { name: "Ime Prezime", role: "Komercijalni direktor" },
+          { name: "Ime Prezime", role: "Direktor prodaje" },
+        ],
+      },
+    },
+    salesNetworkPage: {
+      hero: {
+        badge: "Prodajna mreža",
+        title: "Gde kupiti cevasti radijator",
+        subtitle: "Pronađite ovlašćenog partnera Neša Komerc u vašem gradu.",
+      },
+      filterAll: "Svi gradovi",
+      mapLabel: "Mapa prodajne mreže",
+      partnersLabel: "Naši partneri",
+      phoneLabel: "Telefon",
+      emailLabel: "Email",
+      addressLabel: "Adresa",
+      branchesLabel: "Predstavništva",
+      noResults: "Nema partnera za odabrani grad.",
+    },
   },
   en: {
     hero: {
@@ -541,6 +638,103 @@ export const translations = {
       body: "The page you are looking for does not exist or has been moved. Check the address or return to the homepage.",
       prim: "Homepage",
       sec: "Contact us",
+    },
+    aboutHero: {
+      badge: "About Us",
+      title: "Every warmth starts here",
+      subtitle:
+        "Since 1994, we have been building partnerships grounded in quality, tradition and dedication to every customer.",
+    },
+    contactPage: {
+      hero: {
+        badge: "Contact",
+        title: "Get in touch",
+        subtitle: "We are here for all your questions, offers and partnerships. We will respond as soon as possible.",
+      },
+      info: {
+        badge: "Contact information",
+        addressLabel: "Address",
+        address: "Stevana Sinđelića 30\n35210 Svilajnac, Serbia",
+        phoneLabel: "Phone",
+        emailLabel: "Email",
+        phones: ["+381 35 8814 077", "+381 35 8814 099"],
+        emails: [
+          "office@nesa-komerc.com",
+          "sales@nesa-komerc.com",
+          "teodora.obradovic@nesa-komerc.com",
+        ],
+      },
+      form: {
+        badge: "Send a message",
+        title: "How can we help?",
+        labelName: "Full name",
+        labelCompany: "Company",
+        labelPhone: "Phone",
+        labelEmail: "Email address",
+        labelDepartment: "Department",
+        labelMessage: "Message",
+        placeholderName: "Your full name",
+        placeholderCompany: "Company name",
+        placeholderPhone: "+381...",
+        placeholderEmail: "your@email.com",
+        placeholderMessage: "Describe your need...",
+        submit: "Send message",
+        successTitle: "Message sent!",
+        successBody: "Thank you for your message. We will get back to you as soon as possible.",
+        departments: [
+          { value: "wholesale", label: "Wholesale" },
+          { value: "retail", label: "Retail" },
+          { value: "production", label: "Production" },
+          { value: "director", label: "Director" },
+          { value: "accounting", label: "Accounting" },
+        ],
+      },
+      mapLabel: "Find us",
+    },
+    aboutPage: {
+      company: {
+        badge: "Neša Komerc d.o.o.",
+        title: "Foundation & Growth",
+        body1:
+          'Neša Komerc d.o.o. was founded in December 1992 and began manufacturing tubular radiators in 2001. Through steady progress and continuous investment in new technology, the company has grown into a serious industrial enterprise.',
+        body2:
+          'The company is headquartered in Svilajnac, in the industrial zone on the road to Požarevac, 110 km from Belgrade. Today, production takes place in modern industrial halls covering 6,000 m². The manufacturing process employs state-of-the-art equipment from renowned world manufacturers (robotic and tunnel welding) and raw materials from the most reputable European companies, backed by an efficient organisation confirmed by the relevant certificates.',
+      },
+      mission: {
+        badge: "Mission & Vision",
+        title: "Dedicated to quality and customers",
+        body1:
+          'Our company is fully committed to its customers\' needs and the quality of its products, which come with a five-year guarantee. The tubular radiators are of outstanding quality with a unique design, holding all required attestations and certificates.',
+        body2:
+          'Neša Komerc d.o.o. is and will remain an independent family business, focused on strengthening its leadership position and entering new markets.',
+        guarantee: "5-year guarantee",
+      },
+      team: {
+        badge: "Our Team",
+        title: "The people behind every warmth",
+        subtitle: "The expert team behind every radiator that leaves our facility.",
+        members: [
+          { name: "Name Surname", role: "General Director" },
+          { name: "Name Surname", role: "Technical Director" },
+          { name: "Name Surname", role: "Commercial Director" },
+          { name: "Name Surname", role: "Sales Director" },
+        ],
+      },
+    },
+    salesNetworkPage: {
+      hero: {
+        badge: "Sales Network",
+        title: "Where to buy tubular radiators",
+        subtitle: "Find an authorised Neša Komerc partner in your city.",
+      },
+      filterAll: "All cities",
+      mapLabel: "Sales network map",
+      partnersLabel: "Our partners",
+      phoneLabel: "Phone",
+      emailLabel: "Email",
+      addressLabel: "Address",
+      branchesLabel: "Branches",
+      noResults: "No partners found for the selected city.",
     },
   },
 };

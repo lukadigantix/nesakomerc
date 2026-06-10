@@ -7,7 +7,7 @@ export default function Testimonials({ lang }: { lang: Locale }) {
   const t = (translations[lang] ?? translations['sr']).testimonials;
 
   return (
-    <section className="bg-neutral-50 ">
+    <section className="bg-neutral-50 pb-20 ">
       <Container>
         <div className="grid grid-cols-3 gap-5">
           {t.items.map((item, i) => (
