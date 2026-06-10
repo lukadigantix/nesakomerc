@@ -71,7 +71,7 @@ export default function SalesNetworkMap() {
         center: [20.9, 44.1],
         zoom: 6.8,
         scrollZoom: true,
-        attributionControl: true,
+        attributionControl: false,
       });
 
       mapInstance = map;

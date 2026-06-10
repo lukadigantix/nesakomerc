@@ -29,7 +29,7 @@ export default function ContactMap() {
         center: [LNG, LAT],
         zoom: ZOOM,
         scrollZoom: true,
-        attributionControl: true,
+        attributionControl: false,
       });
 
       mapInstance = map;
